@@ -1,6 +1,6 @@
 # Getting Started with Machine Learning
 
-![[Machine Learning](https://github.com/hnnnayy/DeepLearning/blob/main/cover.jpg](https://github.com/hnnayy/DeepLearning/blob/main/week8-16/cover.jpg))
+![Machine Learning](https://github.com/hnnayy/DeepLearning/blob/main/week8-16/cover.jpg)
 
 **A Comprehensive Guide to Scikit-Learn, Keras, and TensorFlow**
 
