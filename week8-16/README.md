@@ -1,210 +1,179 @@
 # Getting Started with Machine Learning
 
-![Machine Learning](https://via.placeholder.com/300x400/6c757d/ffffff?text=Hands-on+Machine+Learning)
+![Machine Learning](https://github.com/hnnnayy/DeepLearning/blob/main/cover.jpg)
 
-**Panduan Komprehensif untuk Scikit-Learn, Keras, dan TensorFlow**
-
----
-
-Repository ini adalah panduan komprehensif Anda untuk memahami dan menerapkan teknik-teknik dasar dalam Machine Learning. Dirancang untuk pemula, buku panduan ini menjembatani kesenjangan antara konsep teoretis dan implementasi praktis. Pembaca akan belajar cara memproses data, mengekstrak wawasan yang bermakna, dan membangun aplikasi ML menggunakan library Python yang populer. Baik Anda seorang developer, data scientist, atau enthusiast, panduan ini membekali Anda dengan tools untuk mengatasi tantangan ML di dunia nyata.
+**A Comprehensive Guide to Scikit-Learn, Keras, and TensorFlow**
 
 ---
 
-## 📚 Daftar Isi
+This repository is your comprehensive guide to understanding and applying foundational techniques in Machine Learning. Designed for beginners, this handbook bridges the gap between theoretical concepts and practical implementation. Readers will learn how to preprocess data, extract meaningful insights, and build ML applications using popular Python libraries. Whether you're a developer, data scientist, or enthusiast, this guide equips you with the tools to tackle real-world ML challenges.
 
-### 🎯 Bagian I: Dasar-dasar Machine Learning
+---
 
-#### 📖 Bab 1: Pengenalan Machine Learning
-- Definisi dan konsep dasar machine learning
-- Jenis-jenis machine learning (supervised, unsupervised, reinforcement learning)
-- Tantangan utama dalam machine learning
-- Testing dan validasi sistem ML
+## Table of Contents
 
-#### 🚀 Bab 2: Proyek Machine Learning End-to-End
-- Langkah-langkah lengkap dalam proyek ML
-- Eksplorasi dan visualisasi data
-- Persiapan data untuk algoritma machine learning
-- Pemilihan dan pelatihan model
-- Fine-tuning model
-- Deployment dan monitoring sistem
+### Part I: The Fundamentals of Machine Learning
 
-#### 🎪 Bab 3: Klasifikasi
-- Algoritma klasifikasi dasar
-- Penggunaan MNIST dataset
-- Binary dan multiclass classification
-- Evaluasi performa classifier
-- Multilabel dan multioutput classification
+#### Chapter 1: The Machine Learning Landscape
+- What is Machine Learning?
+- Types of Machine Learning Systems
+- Main Challenges of Machine Learning
+- Testing and Validating
 
-#### 🏋️ Bab 4: Pelatihan Model
-- Regresi linear dan polynomial
-- Learning curves
-- Regularization techniques (Ridge, Lasso, Elastic Net)
-- Logistic regression
-- Early stopping
+#### Chapter 2: End-to-End Machine Learning Project
+- Working with Real Data
+- Look at the Big Picture
+- Get the Data
+- Discover and Visualize the Data to Gain Insights
+- Prepare the Data for Machine Learning Algorithms
+- Select and Train a Model
+- Fine-Tune Your Model
+- Launch, Monitor, and Maintain Your System
 
-#### ⚔️ Bab 5: Support Vector Machines
-- Linear SVM classification
-- Nonlinear SVM classification
-- SVM regression
-- Teori matematis di balik SVM
+#### Chapter 3: Classification
+- MNIST
+- Training a Binary Classifier
+- Performance Measures
+- Multiclass Classification
+- Error Analysis
+- Multilabel Classification
+- Multioutput Classification
 
-#### 🌳 Bab 6: Decision Trees
-- Pelatihan dan visualisasi Decision Trees
-- Membuat prediksi
-- Estimasi probabilitas kelas
-- Algoritma CART
-- Regularization hyperparameters
-- Regression dengan Decision Trees
+#### Chapter 4: Training Models
+- Linear Regression
+- Gradient Descent
+- Polynomial Regression
+- Learning Curves
+- Regularized Linear Models
+- Logistic Regression
 
-#### 🌲 Bab 7: Ensemble Learning dan Random Forests
-- Voting classifiers
-- Bagging dan pasting
+#### Chapter 5: Support Vector Machines
+- Linear SVM Classification
+- Nonlinear SVM Classification
+- SVM Regression
+- Under the Hood
+
+#### Chapter 6: Decision Trees
+- Training and Visualizing a Decision Tree
+- Making Predictions
+- Estimating Class Probabilities
+- The CART Training Algorithm
+- Computational Complexity
+- Gini Impurity or Entropy?
+- Regularization Hyperparameters
+- Regression
+
+#### Chapter 7: Ensemble Learning and Random Forests
+- Voting Classifiers
+- Bagging and Pasting
+- Random Patches and Random Subspaces
 - Random Forests
 - Extra-Trees
-- Boosting (AdaBoost, Gradient Boosting)
+- Feature Importance
+- Boosting
 - Stacking
 
-#### 📐 Bab 8: Dimensionality Reduction
-- Curse of dimensionality
-- Pendekatan utama untuk dimensionality reduction
-- PCA (Principal Component Analysis)
+#### Chapter 8: Dimensionality Reduction
+- The Curse of Dimensionality
+- Main Approaches for Dimensionality Reduction
+- PCA
 - Kernel PCA
-- LLE (Locally Linear Embedding)
-- Teknik lainnya
+- LLE
+- Other Dimensionality Reduction Techniques
 
-#### 🔍 Bab 9: Unsupervised Learning Techniques
-- Clustering (K-Means, DBSCAN, Hierarchical clustering)
-- Gaussian mixtures
-- Novelty dan outlier detection
-- Density estimation
+#### Chapter 9: Unsupervised Learning Techniques
+- Clustering
+- K-Means
+- DBSCAN
+- Other Clustering Algorithms
+- Gaussian Mixtures
 
-### 🧠 Bagian II: Neural Networks dan Deep Learning
+### Part II: Neural Networks and Deep Learning
 
-#### 🤖 Bab 10: Pengenalan Artificial Neural Networks dengan Keras
-- Perceptron
-- Multi-Layer Perceptron (MLP)
-- Implementasi MLP dengan Keras
-- Fine-tuning hyperparameters
-- Regression dengan MLP
+#### Chapter 10: Introduction to Artificial Neural Networks with Keras
+- From Biological to Artificial Neurons
+- Training an ANN with TensorFlow's High-Level API
+- Building Complex Models Using the Functional API
+- Using the Subclassing API to Build Dynamic Models
+- Saving and Restoring a Model
+- Using Callbacks
 
-#### 🏗️ Bab 11: Pelatihan Deep Neural Networks
-- Vanishing/exploding gradients problem
-- Inisialisasi parameter
-- Nonsaturating activation functions
-- Batch normalization
-- Gradient clipping
-- Transfer learning
+#### Chapter 11: Training Deep Neural Networks
+- The Vanishing/Exploding Gradients Problems
+- Reusing Pretrained Layers
+- Faster Optimizers
+- Avoiding Overfitting Through Regularization
 
-#### ⚙️ Bab 12: Custom Models dan Training dengan TensorFlow
-- TensorFlow's lower-level API
-- Custom loss functions dan metrics
-- Custom layers dan models
-- Callbacks
-- TensorBoard untuk visualisasi
+#### Chapter 12: Custom Models and Training with TensorFlow
+- A Quick Tour of TensorFlow
+- Using TensorFlow like NumPy
+- Customizing Models and Training Algorithms
+- TensorFlow Functions and Graphs
 
-#### 📊 Bab 13: Loading dan Preprocessing Data dengan TensorFlow
-- Data API
-- TFRecord format
-- Preprocessing layers
+#### Chapter 13: Loading and Preprocessing Data with TensorFlow
+- The Data API
+- TFRecord Format
+- Preprocessing the Input Features
 - TensorFlow Transform
-- TensorFlow Datasets project
+- The TensorFlow Datasets Project
 
-#### 👁️ Bab 14: Deep Computer Vision dengan Convolutional Neural Networks
-- Arsitektur CNN
-- Convolutional layers
-- Pooling layers
-- CNN architectures (LeNet, AlexNet, GoogLeNet, ResNet)
-- Transfer learning untuk computer vision
-- Classification dan localization
-- Object detection
+#### Chapter 14: Deep Computer Vision Using Convolutional Neural Networks
+- The Architecture of the Visual Cortex
+- Convolutional Layer
+- Pooling Layer
+- CNN Architectures
+- Implementing a ResNet-34 CNN Using Keras
+- Using Pretrained Models from Keras
+- Pretrained Models for Transfer Learning
+- Classification and Localization
+- Object Detection
+- Semantic Segmentation
 
-#### 🔄 Bab 15: Processing Sequences dengan RNNs dan CNNs
-- Recurrent neurons
-- Memory cells
-- Input dan output sequences
-- RNN training (BPTT)
-- LSTM dan GRU cells
-- 1D convolutional layers
-- WaveNet
+#### Chapter 15: Processing Sequences Using RNNs and CNNs
+- Recurrent Neurons
+- Training RNNs
+- Forecasting a Time Series
+- Handling Long Sequences
 
-#### 💬 Bab 16: Natural Language Processing dengan RNNs dan Attention
-- Text generation
-- Sentiment analysis
-- Encoder-decoder networks
-- Attention mechanisms
-- Transformer architecture
-- BERT dan GPT models
+#### Chapter 16: Natural Language Processing with RNNs and Attention
+- Generating Shakespearean Text Using a Character RNN
+- Sentiment Analysis
+- An Encoder-Decoder Network for Neural Machine Translation
+- Attention Mechanisms
+- Recent Innovations in Language Models
 
-#### 🎨 Bab 17: Representation Learning dan Generative Learning dengan Autoencoders dan GANs
-- Efficient data representations
-- PCA dengan autoencoders
-- Stacked autoencoders
-- Convolutional autoencoders
-- Sparse autoencoders
-- Variational autoencoders
+#### Chapter 17: Representation Learning and Generative Learning Using Autoencoders and GANs
+- Efficient Data Representations
+- Performing PCA with an Undercomplete Linear Autoencoder
+- Stacked Autoencoders
+- Convolutional Autoencoders
+- Recurrent Autoencoders
+- Denoising Autoencoders
+- Sparse Autoencoders
+- Variational Autoencoders
 - Generative Adversarial Networks
+- Other GAN Variants
 
-#### 🎮 Bab 18: Reinforcement Learning
-- Learning untuk optimasi rewards
-- Policy gradients
-- Markov decision processes
+#### Chapter 18: Reinforcement Learning
+- Learning to Optimize Rewards
+- Policy Gradients
+- Markov Decision Processes
+- Temporal Difference Learning
 - Q-Learning
-- Deep Q-Networks
-- Policy gradient algorithms
+- Implementing Deep Q-Learning
+- Deep Q-Learning Variants
+- The Credit Assignment Problem
+- Policy Gradient Algorithms
+- Markov Chains
 
-#### 🚀 Bab 19: Training dan Deploying TensorFlow Models pada Skala Besar
-- TensorFlow Serving
-- Mobile dan embedded devices
-- GPU acceleration
-- Distributed training
-- Model versioning
-- A/B testing ML systems
+#### Chapter 19: Training and Deploying TensorFlow Models at Scale
+- Serving a TensorFlow Model
+- Deploying a Model to a Mobile or Embedded Device
+- Using GPUs to Speed Up Computations
+- Training Models Across Multiple Devices
 
 ---
 
-## 💻 Persyaratan Sistem
-- Python 3.7+
-- Jupyter Notebook
-- Scikit-Learn
-- TensorFlow 2.x
-- Keras
-- NumPy
-- Pandas
-- Matplotlib
 
-## 🛠️ Cara Penggunaan
-1. Clone repository ini
-2. Install dependencies yang diperlukan
-3. Jalankan Jupyter Notebook untuk setiap bab
-4. Ikuti instruksi dan latihan dalam setiap notebook
-
-## Struktur Repository
-```
-├── chapter_01/          # Pengenalan ML
-├── chapter_02/          # Proyek End-to-End
-├── chapter_03/          # Klasifikasi  
-├── chapter_04/          # Training Models
-├── chapter_05/          # SVM
-├── chapter_06/          # Decision Trees
-├── chapter_07/          # Ensemble Learning
-├── chapter_08/          # Dimensionality Reduction
-├── chapter_09/          # Unsupervised Learning
-├── chapter_10/          # Neural Networks dengan Keras
-├── chapter_11/          # Deep Neural Networks
-├── chapter_12/          # Custom Models TensorFlow
-├── chapter_13/          # Data Loading TensorFlow
-├── chapter_14/          # Computer Vision CNN
-├── chapter_15/          # RNNs untuk Sequences
-├── chapter_16/          # NLP dengan RNNs
-├── chapter_17/          # Autoencoders dan GANs
-├── chapter_18/          # Reinforcement Learning
-├── chapter_19/          # Deployment Skala Besar
-├── datasets/            # Dataset untuk latihan
-└── utils/              # Utility functions
-```
-
-## Kontribusi
-Silakan buat pull request untuk perbaikan atau penambahan materi pembelajaran.
-
-## Lisensi
-Materi ini dibuat untuk tujuan edukasi dan mengikuti pedoman fair use.
+## Contributing
+Pull requests are welcome for improvements or additional learning materials.
